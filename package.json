@@ -3,9 +3,9 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "",
+  "homepage": "https://nazar-triukhan.github.io/http-homework-react/",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite ",
     "build": "vite build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
@@ -15,7 +15,8 @@
   "dependencies": {
     "gh-pages": "^6.3.0",
     "react": "^19.2.8",
-    "react-dom": "^19.2.8"
+    "react-dom": "^19.2.8",
+    "react-spinners": "^0.17.1"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",

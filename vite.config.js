@@ -4,5 +4,8 @@ import { defineConfig } from 'vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
+  server: {
+    open: true
+  },
   base: '/http-homework-react/'
 })
